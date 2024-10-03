@@ -1,0 +1,16 @@
+.carousel{
+    img{
+        width: 100%;
+        height: 85dvh;//dvh: 50% chieu cao man hinh
+        object-fit: cover;
+        object-position: top;
+        
+        
+    }
+
+    &.multi-item{
+        img{
+            height: 310px;
+        }
+    }
+}

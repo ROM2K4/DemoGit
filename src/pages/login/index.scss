@@ -1,0 +1,62 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .wrapper{
+        
+        display: flex;
+        align-items: center;
+        gap: 90px;
+        
+    }
+
+    .line{
+        height: 200px;
+        width: 1px;
+        background-color: rgb(255, 255, 255);
+        
+    }
+    h3{
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+
+    &__form{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    input{
+        color: white;
+        height: 45px;
+        width: 330px;
+        border-radius: 6px;
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        background-color: transparent;
+
+    }
+
+    button{
+        cursor: pointer;
+display: inline-block;
+font-size: 17px;
+box-shadow: none;
+outline: none;
+border: 0;
+color: #fff;
+border-radius: 3px;
+background-color: #ffbd3f;
+padding: 10px 36px;
+margin-bottom: 10px;
+width: 100%;
+
+margin-top: 20px;
+
+    }
+
+}
